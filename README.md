@@ -2,8 +2,6 @@
 
 ImpactR is an evidence-first social intelligence prototype for SIH26152, Social Media Analytics. It is designed around a simple trust boundary: observed source events, model-derived findings, anomaly signals, and supporting evidence are displayed as different things.
 
-The default experience is a clearly labeled synthetic Project Orion incident. It runs without credentials and emits realistic cross-platform events over WebSocket. External adapters are present, but deliberately report `NOT CONFIGURED` until authorized credentials exist.
-
 ## Implemented
 
 - FastAPI REST API and `/ws/live` WebSocket.
